@@ -1,11 +1,11 @@
 /* FONTS */
 @font-face {
     font-family: 'Monteserrat Regular';
-    src: url(fonts/Montserrat-VariableFont_wght.ttf);
+    src: url(Montserrat-VariableFont_wght.ttf);
 }
 @font-face {
     font-family: 'Monteserrat Italic';
-    src: url(fonts/Montserrat-Italic-VariableFont_wght.ttf);
+    src: url(Montserrat-Italic-VariableFont_wght.ttf);
 }
 
 /* GENRERAL */
