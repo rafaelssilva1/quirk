@@ -21,7 +21,7 @@
 
 .logo {
     position: fixed;
-    margin: 1% 2%;
+    margin: 1% 5%;
 }
 #logo {
     width: 20%;
@@ -44,7 +44,7 @@
 }
 
 .title {
-    font-size: 3em;
+    font-size: 5em;
     line-height: 1.1em;
 }
 
