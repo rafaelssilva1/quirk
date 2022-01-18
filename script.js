@@ -17,13 +17,13 @@ function loop () {
     if (!isDeleting && j <= servicos[i].length) {
       currentPhrase.push(servicos[i][j])
       j++
-      words.innerHTML = currentPhrase.join('')
+      words.innerHTML = currentPhrase.join('') + "|"
     }
 
     if(isDeleting && j <= servicos[i].length) {
       currentPhrase.pop(servicos[i][j])
       j--
-      words.innerHTML = currentPhrase.join('')
+      words.innerHTML = currentPhrase.join('') + "|"
     }
 
     if (j == servicos[i].length) {
