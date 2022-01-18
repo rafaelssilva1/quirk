@@ -45,7 +45,7 @@
 }
 
 .title {
-    font-size: 4em;
+    font-size: 3em;
     line-height: 1.1em;
 }
 
@@ -73,11 +73,5 @@
     }
     100% {
         background-color: rgba(255, 0, 0, 0.5);
-    }
-}
-
-@media screen and (max-width:600px) {
-    .title {
-        font-size: 3em;
     }
 }
