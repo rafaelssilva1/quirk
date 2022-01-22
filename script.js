@@ -42,7 +42,7 @@ function loop () {
   }
   const spedUp = Math.random() * (80 - 50) + 50
   const normalSpeed = Math.random() * (100 - 80) + 50
-  const time = isEnd ? 2000 : isDeleting ? spedUp : normalSpeed
+  const time = normalSpeed
   setTimeout(loop, time)
 }
 
